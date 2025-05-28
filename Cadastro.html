@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/estilo.css">
+</head>
+<body>
+    <div>
+        <h1 id="titulo">    Criar Cadastro  </h1>
+        <p id="subtitulo">Complete com suas informações</p>
+    </div>
+    <form>
+        <fieldset class="grupo">
+        <div class="campo">
+            <label for="nameC">Nome completo: </label><br>
+            <input type="text" name="NameC" id="nameC" placeholder="Nome completo" required>
+        </div>
+        <div class="campo">
+            <label for="nameU">Nome do Usuario: </label><br>
+            <input type="text" name="NameU" id="nameU" placeholder="Usuario" required>
+        </div>
+        <div class="campo">
+            <label for="email">Email: </label><br>
+            <input type="email" name="Email" id="email" placeholder="Email" required>
+        </div>
+        <div class="campo">
+            <label for="senha">Senha: </label><br>
+            <input type="password" name="Senha" id="senha" placeholder="Senha" required>
+        </div>
+        <div class="campo">
+            <label for="estado">Estado: </label><br>
+            <select name="Estado" id="estado">
+                <optgroup label="Região Norte:">
+
+                    <option value="AC">Acre</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="PA">Pará</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="TO">Tocantins</option>
+
+                </optgroup>
+                <optgroup label="Região Nordeste:">
+
+                    <option value="AL">Alagoas</option>
+                    <option value="BH">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RN">Rio Grande Do Norte</option>
+                    <option value="SE">Sergipe</option>
+
+                </optgroup>
+                <optgroup label="Centro-Oeste">
+
+                    <option value="DF">Distrito Federal</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso Do Sul</option>
+
+                </optgroup>
+                <optgroup label="Sul">
+
+                    <option value="PR">Paraná</option>
+                    <option value="RS">Rio Grande Do Sul</option>
+                    <option value="SC">Santa Catarina</option>
+
+                </optgroup>
+                <optgroup label="Sudeste">
+
+                    <option value="ES">Espírito Santo</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio De Janeiro</option>
+                    <option value="SP">São Paulo</option>
+
+                </optgroup>
+
+                </select>
+            </div>    
+        </fieldset>
+        <fieldset class="enviar">
+            <button type="submit" class="butao">Continuar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
