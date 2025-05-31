@@ -5,21 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="/estilo.css">
+
+    
 </head>
 <body>
     <div>
-        <h1 id="titulo">    Criar Cadastro  </h1>
-        <p id="subtitulo">Complete com suas informações</p>
+        <h1 style="width: 400px; padding: 10px; margin: 0 auto;text-align: center;">    Criar Cadastro  </h1>
+        <p style="width: 400px; padding: 10px; margin: 0 auto;text-align: center;">Complete com suas informações</p>
     </div>
     <form>
-        <fieldset class="grupo">
-        <div class="campo">
+        <fieldset style="width: 400px; padding: 10px; margin: 0 auto;text-align: center;">
+        <div>
             <label for="nameC">Nome completo: </label><br>
             <input type="text" name="NameC" id="nameC" placeholder="Nome completo" required>
         </div>
         <div class="campo">
-            <label for="nameU">Nome do Usuario: </label><br>
+            <label for="nameU">Nome do Usuário: </label><br>
             <input type="text" name="NameU" id="nameU" placeholder="Usuario" required>
         </div>
         <div class="campo">
@@ -82,10 +83,12 @@
                 </optgroup>
 
                 </select>
+                
             </div>    
         </fieldset>
-        <fieldset class="enviar">
-            <button type="submit" class="butao">Continuar</button>
+        <fieldset style="width: 400px; padding: 10px; margin: 0 auto;text-align: center;">
+            <a href="Login.html"></a>
+            <input type="button" value="Continuar" onclick="window.location.href='Login.html'">
         </fieldset>
     </form>
 </body>
