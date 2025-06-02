@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <style>
   .imagem {
     width: 200px;
@@ -13,15 +14,15 @@
 </style>
 </head>
 <body>
+<thead>  
     <h1 style="width: 400px; padding: 10px; margin: 0 auto;text-align: center;"><b>Catalago de Filmes Antigos</b></h1>
     <p style="width: 400px; padding: 10px; margin: 0 auto;text-align: center;">Aqui voce pode estar olhando nossos filmes atualmente disponivel, assim que estiver feito a escolha, basta estar apertando no botão de ir para a proxima pagina e colocar o filme da sua escolha.</p>
-    
-
-
-        <fieldset style="border-color: black;">
-            <legend><b>Terror</b></legend>
+</thead>      
+<tbody>
+    <fieldset style="border-color: black;">
+        <legend><b>Terror</b></legend>
 <table>
-    
+
             <tr>
                 <td><img src="ImgT/A_Noite_dos_Mortos-Vivos_(1968).jpg" alt="ANoitedosMortosVivos" class="imagem">A noite dos mortos vivos</td>
                 <td><img src="ImgT/Blair_Witch_Project.jpg" alt="BlairWitchProject" class="imagem">A bruxa de Blair</td>
@@ -31,7 +32,7 @@
             </tr>
 
 </table>
-        </fieldset>
+</fieldset>
         <fieldset style="border-color: black;">       
                 <legend><b>Aventura</b></legend>
 <table>
@@ -89,5 +90,11 @@
             
 </table>
         </fieldset>
+    </tbody>
+    <tfoot>
+
+        <div style="text-align: center;padding: 1em;"><a href="" class="botaopagina2">Proximo</a>
+        </div>
+    </tfoot>
 </body>
 </html>
