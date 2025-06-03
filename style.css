@@ -1,3 +1,46 @@
+@charset "UTF-8";
+html, body{
+    background-color: rgb(95, 52, 52);
+}
+div{
+    color: white;
+}
+label{
+    color: white;
+}
+legend{
+    color: white;
+}
+thead{
+    color: white;
+}
+table{
+    color: white;
+}
+h1{
+    background-color: rgba(255, 0, 0, 0.486);
+    
+    color: white;
+    text-align: center;
+}
+h2{
+    background-color: rgba(255, 0, 0, 0.486);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.486);
+    
+    color: white;
+}
+p{
+    color: white;
+}
+ol, ul, li{
+    color: white;
+}
 .imagem-centralizada {
     width: 100%;
     height: 100%;
@@ -5,7 +48,7 @@
 .botaopagina2{
 display: inline-block;
 padding: 0.6em 1.5em;
-background: #007bff;
+background: #bd2a2ad5;
 color: #ffffff;
 text-decoration: none;
 border-radius: 100px;
@@ -13,7 +56,7 @@ transition: transform 0.2s ease;
 }
 .botaopagina2:hover {
  transform: scale(1.1); 
-background-color: #000983;
+background-color: #5f00004d;
  box-shadow: 0 4px 12px rgba
 }
 .pagamento{
